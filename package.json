@@ -3,7 +3,6 @@
   "displayName": "HellooooNewmans's VSCode extension helpers",
   "description": "VS Code extension for doing small random things.",
   "version": "0.0.1",
-  "publisher": "Kevin Newman",
   "repository": "https://github.com/helloooonewman/helloooonewman-vscode-extension",
   "engines": {
     "vscode": "^1.34.0"

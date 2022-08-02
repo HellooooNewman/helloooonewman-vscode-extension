@@ -2,7 +2,7 @@
   "name": "helloooonewman-vscode-extension",
   "displayName": "HellooooNewmans's VSCode extension helpers",
   "description": "VS Code extension for doing small random things.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "kevin-newman",
   "repository": "https://github.com/helloooonewman/helloooonewman-vscode-extension",
   "engines": {
@@ -36,6 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^3.0.2",
     "@typescript-eslint/parser": "^3.0.2",
     "eslint": "^7.1.0",
-    "typescript": "^3.9.4"
+    "typescript": "^3.9.4",
+    "vsce": "^2.10.0"
   }
 }

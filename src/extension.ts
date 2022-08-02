@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
       for (const selection of activeTextEditor.selections) {
         let name = activeTextEditor.document.getText(selection);
         let title = '';
-        title = name.replace(/[^a-zA-Z0-9 ]/g, '').replace(/\s/g, '_').toUpperCase();
+        title = name.replace(/[^a-zA-Z0-9 ]/g, '').replace(/\s/g, '_').toLowerCase();
         edit.replace(document.uri, selection, title);
       }
       vscode.workspace.applyEdit(edit);
